@@ -8,7 +8,7 @@ py-udownloader makes zero assumptions and give the user freehand by simply expos
 
 Description
 -----------
-py-udownloader autome the downloading process using the selenium library to download youtube/dailymotion/liveleaks videos from the https://www.onlinevideoconverter.com/mp3-converter.
+py-udownloader automate the youtube/dailymotion/liveleaks videos downloading process using the selenium library from the https://www.onlinevideoconverter.com/mp3-converter website
 
 
 Features
