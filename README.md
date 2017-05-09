@@ -6,6 +6,11 @@ YouTube and Dailymotion are the most popular video-sharing platform in the world
 
 py-udownloader makes zero assumptions and give the user freehand by simply exposing all the available formats and resolutions, giving you the user the power to define what is "best" for you.
 
+Description
+-----------
+py-udownloader autome the downloading process using the selenium library to download youtube/dailymotion/liveleaks videos from the https://www.onlinevideoconverter.com/mp3-converter.
+
+
 Features
 --------
 * Supported Audio Formats : mp3, aac, ogg, m4a, wma, flac, wav
@@ -15,10 +20,12 @@ Features
 Dependencies
 ------------
 py-udownloader depend on third party libraries
-* Selenium 
-* Beautiful soup
+* Selenium ( http://selenium-python.readthedocs.io/ )
+* geckodriver (https://github.com/mozilla/geckodriver/releases )
+* Beautiful soup (https://www.crummy.com/software/BeautifulSoup/ )
 * urrlib
 
 Comman-Line Example
 -------------------
-    $ udownloader -u videourl -f format -p path
+    $ ./py-udownloader #command-line utility to save demo youtube video in mp3 format
+    $ ./py-udownloader -u videourl -f format -p path #command-line utility to save user provided youtube video in user specified url
