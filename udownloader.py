@@ -18,10 +18,10 @@ website_url = 'https://www.onlinevideoconverter.com/mp3-converter'
 def main(argv):
 
 	def usage():
-		print(('usage: %s [-d] [-u videoURL] [-f format] [-p path] [-q quality] [-h help] ...' % argv[0]))
+		print(('usage: %s [-d] [-u videoURL] [-f format] [-p path][-h help] ...' % argv[0]))
 		return 100
 	try:
-	    (opts, args) = getopt.getopt(argv[1:], 'd:u:f:p:q:h')
+	    (opts, args) = getopt.getopt(argv[1:], 'd:u:f:p:h')
 	except getopt.GetoptError:
 		return usage()
 
