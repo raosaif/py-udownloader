@@ -28,6 +28,7 @@ py-udownloader depend on third party libraries
 Comman-Line Example
 -------------------
 You need to add geckodriver to your path 
+
     $ export PATH=$PATH:/path/to/geckdriver/directory/
     $ ./py-udownloader #command-line utility to save demo youtube video in mp3 format
     $ ./py-udownloader -u videourl -f format -p path #command-line utility to save user provided youtube video in user specified url
